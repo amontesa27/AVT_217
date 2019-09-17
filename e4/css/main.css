@@ -8,3 +8,14 @@ img {
 p {}
 
 h1
+.intro {
+  color:black;
+}
+
+p{
+  color:pink;
+}
+#container{
+  width: 60%;
+  margin: 100px auto;
+}
