@@ -5,3 +5,33 @@ body {
 img {
   max-with: 100%;
 }
+body{
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+h2 {
+color: white;
+}
+a {
+  color: pink;
+  /* text-decoration: none; */
+  border-bottom: 10px dotted: black;
+  transition: color 2s ease;
+}
+a:hover {
+  color: blue;
+  cursor: crosshair;
+}
+a:visited{
+  color:red;
+  text-decoration:line-through;
+}
+a:focus {
+  color: yellow;
+}
+a:active{
+  color: green;
+  }
