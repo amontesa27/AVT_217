@@ -7,7 +7,7 @@ body {
   margin-left: -10%;
   margin-top: -50px;
 }
-.tile1, .tile2, .tile3,.tile4,.tile5,.tile6,.tile7,.tile8,.tile9,.tile10,.tile11,.tile12,.tile13,.tile14,.tile15,.tile16,.tile17,.tile18{
+.tile1, .tile2, .tile3
   width: 200px;
   float: left;
   opacity: .8;
@@ -32,109 +32,3 @@ body {
   transform: rotate(-45deg);
   background-color: blue;
 }
-.tile4{
-  with:300px
-  height:10px
-  margin:10px
-  transfrom: rotate(45deg);
-  background-color:red
-}
-.tile5{
-  with:150px
-  height:20px
-  margin:20px
-  transfrom: rotate(45deg);
-  background-color:black
-}
-.tile6{
-  with:200px
-  height:30px
-  margin:30px
-  transfrom: rotate(45deg);
-  background-color:blue
-}
-.tile7{
-  with:150px
-  height:10px
-  margin:10px
-  transfrom: rotate(45deg);
-  background-color:yellow
-}
-.tile8{
-  with:300px
-  height:10px
-  margin:10px
-  transfrom: rotate(45deg);
-  background-color:orange
-}
-.tile9{
-  with:300px
-  height:10px
-  margin:10px
-  transfrom: rotate(45deg);
-  background-color:blue
-}
-.tile10{
-  with:300px
-  height:10px
-  margin:10px
-  transfrom: rotate(45deg);
-  background-color:cyan
-}
-
-.tile11{
-  with:300px
-  height:10px
-  margin:10px
-  transfrom: rotate(45deg);
-  background-color:fuchsia
-}
-
-.tile12{
-  with:300px
-  height:10px
-  margin:10px
-  transfrom: rotate(45deg);
-  background-color:pink
-}
-.tile13{
-  with:200px
-  height:10px
-  margin:10px
-  transfrom: rotate(45deg);
-  background-color:green
-}
-.tile14{
-  with:150px
-  height:20px
-  margin:30px
-  transfrom: rotate(45deg);
-  background-color:red
-}
-.tile15{
-  with:300px
-  height:10px
-  margin:10px
-  transfrom: rotate(45deg);
-  background-color:black
-}
-.tile16{
-  with:300px
-  height:10px
-  margin:10px
-  transfrom: rotate(45deg);
-  background-color:black
-}
-  .tile17{
-    with:300px
-    height:10px
-    margin:10px
-    transfrom: rotate(45deg);
-    background-color:black
-}
-.tile18{
-  with:300px
-  height:10px
-  margin:10px
-  transfrom: rotate(45deg);
-  background-color:black
