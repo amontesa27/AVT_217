@@ -1,0 +1,12 @@
+element {
+}
+.tile1 {
+  backgroud-color: pink;
+}
+.tile1, .tile2, .tile3{
+  width: 150px;
+  height: 50px;
+  margin: -10px;
+  float: left;
+  opacity: .8;
+}
