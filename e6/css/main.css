@@ -7,10 +7,9 @@ body {
   margin-left: -10%;
   margin-top: -50px;
 }
-.tile1, .tile2, .tile3
-  width: 200px;
+.tile1, .tile2, .tile3{
   float: left;
-  opacity: 8;
+  opacity: .8;
 }
 .tile1 {
   width: 100px;
