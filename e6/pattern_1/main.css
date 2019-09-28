@@ -1,20 +1,32 @@
-element {
+body {
+  margin: 0;
+  overflow-x: hidden;
 }
-.tile1 {
-  backgroud-color: pink;
+#container {
+  width: 120%;
+  margin-left: -10%;
+  margin-top: -50px;
 }
-.tile1, .tile2, .tile3{
-  width: 150px;
-  height: 50px;
-  margin: -10px;
+.tile1, .tile2, .tile3 {
   float: left;
   opacity: .8;
 }
-element{
+.tile1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: pink;
 }
 .tile2 {
- background-color: lightgreen;
+  width: 200px;
+  height: 10px;
+  margin: -25px;
+  transform: rotate(45deg);
+  background-color: lightgreen;
 }
 .tile3 {
-background-color: lightblue;
-}
+  width: 150px;
+  height: 50px;
+  margin: 100px 0 0 100px;
+  transform: rotate(-45deg);
+  background-color: lightblue;
