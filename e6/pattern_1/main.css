@@ -10,3 +10,11 @@ element {
   float: left;
   opacity: .8;
 }
+element{
+}
+.tile2 {
+ background-color: lightgreen;
+}
+.tile3 {
+background-color: lightblue;
+}
