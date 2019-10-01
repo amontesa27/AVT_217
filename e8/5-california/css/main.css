@@ -1,0 +1,69 @@
+.cf:before,
+.cf:after{
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after{
+    clear: both;
+}
+*{
+  box-sizing: border-box;
+}
+body {
+  /* background-color: lightgreen; */
+margin: 0;
+}
+#container{
+  /* background-color: lightblue; */
+  width:400px;
+  margin: 50px auto;
+
+}
+.onetwo, .oneone, .twoone, .onefour, .twofour{
+  /* float: left; */
+  background-color: lightblue;
+  border:10px solid white;
+  margin:auto;
+  float:left;
+}
+  .onetwo{
+    width: 100px;
+    height: 200px;
+  }
+  .oneone{
+    width: 100px;
+    height: 100px;
+  }
+  .twoone{
+    width: 200px;
+    height: 100px;
+  }
+  .onefour{
+    width: 100px;
+    height: 400px;
+  }
+  .twofour{
+    width: 200px;
+    height: 400px;
+  }
+#container_1{
+  width: 100px;
+  margin: 50px auto;
+  float: left;
+
+}
+.onetwo, .onefour, .twofour{
+
+}
+.twoone{
+  width: 200px;
+  height: 100px;
+}
+.onefour{
+  width: 100px;
+  height: 400px;
+}
+.twofour{
+  width: 200px;
+  height: 400px;
