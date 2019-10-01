@@ -17,7 +17,7 @@ float: left;
 background-color:gainsboro;
 float: left;
 }
-.red,.white {
+.red, .white {
   width: 100px;
   height: 100px;
   float: left;
