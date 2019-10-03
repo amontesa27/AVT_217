@@ -9,8 +9,7 @@ body {
 }
 .tile1, .tile2, .tile3 {
   float: left;
-  opacity: .8;
-}
+  
 .tile1 {
   width: 100px;
   height: 100px;
