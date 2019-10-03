@@ -35,6 +35,10 @@ margin: 0;
     width: 100px;
     height: 100px;
   }
+  .center{
+    width: 100px;
+    float: left;
+  }
   .twoone{
     width: 200px;
     height: 100px;
