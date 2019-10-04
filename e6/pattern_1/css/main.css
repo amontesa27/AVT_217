@@ -10,7 +10,7 @@ body {
 .tile1, .tile2, .tile3 {
   float: left;
   opacity: .8;
-
+}
 .tile1 {
   width: 100px;
   height: 100px;
@@ -30,3 +30,4 @@ body {
   margin: 100px 0 0 100px;
   transform: rotate(-45deg);
   background-color: lightblue;
+}

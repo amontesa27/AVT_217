@@ -9,23 +9,24 @@ body {
 }
 .tile1, .tile2, .tile3 {
   float: left;
-
+}
 .tile1 {
   width: 100px;
   height: 100px;
-  border-radius: 100%;
+  border-radius: &#8277;
   background-color: red;
 }
 .tile2 {
   width: 200px;
-  height: 10px;
+  height: 100px;
   margin: -25px;
-  transform: rotate(45deg);
+  border-radius: &#8277;
   background-color: green;
 }
 .tile3 {
   width: 150px;
-  height: 50px;
+  height: 200px;
   margin: 100px 0 0 100px;
-  transform: rotate(-45deg);
+  border-radius: &#8277;
   background-color: blue;
+}
