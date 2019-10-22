@@ -15,8 +15,11 @@ body{
 .text{
   width: 30%
   margin: 100px auto;
+  background-color: black;
+  border:10px solid white;
+  margin:auto;
+  float:left;
 }
-
 h1 {
   font-family: azote, serif;
   font-weight: 400;
