@@ -1,0 +1,49 @@
+body {
+  background-color: purple;
+  text-align: center;
+}
+img {
+  max-with: 100%;
+}
+p {}
+
+h1
+.intro {
+  color:black;
+}
+
+p{
+  color:white;
+}
+#container{
+  width: 60%;
+  margin: 100px auto;
+}
+@media only screen and (max-width: 1800px)
+{
+  body{background-color: darkviolet;}
+}
+@media only screen and (max-width: 1024px)
+{
+  body{background-color: darkorchid;}
+}
+@media only screen and (max-width: 768px)
+{
+  body{background-color: darkmagenta;}
+}
+@media only screen and (max-width: 500px)
+{
+  body{background-color: purple;}
+}
+@media only screen and (max-width: 500px)
+{
+#container{
+  width: 60%;
+  margin: 100px auto;
+}
+.intro{
+  line-height: 1.2em;
+}
+p{
+  line-height: 1.6em;
+}
