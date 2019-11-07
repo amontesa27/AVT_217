@@ -1,42 +1,128 @@
-body {
-  background-color: sienna;
-  text-align: center;
+.clearfix:after {
+  content:"";
+  display: table;
+  clear: both;
 }
-img {
+html{
+  font-size: 20px;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+#header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 90vh;
+  background: url(../img/hero.jpg) no-repeat bottom right fixed;
+  background-size: cover;
+  padding: 5%
+}
+.text{
+  width: 45vw;
+  margin: 50px auto;
+}
+.text img{
   max-width: 100%;
+  margin: 50px 0 25px;
 }
-body {
-  font-family: sans-serif;
-  font-weight: bold;
+.iim {
+  width: 80vw;
+  margin: 50px auto;
+}
+.iim img{
+  max-with: 50%;
+  float: left;
+  margin: 0 50px 25px 0
+}
+img .full{
+  max-width: 100%;
+  margin: 50px 0 0 0;
+}
+img .half{
+  max-width: calc(50% - 5px);
+  float: left;
+  margin-right: 10px 0;
+}
+img.right-10px{
+  margin-right: 10px;
+}
+.footer{
+  width: 100vw;
+  height: 400px;
+  background-color: #dddddd;
+}
+.mobile-only{
+  display: none;
+}
+h1 {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  /*em= my base size in the html styles so 5em = 80px;*/
+  font-size: 7em;
+  font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 48px;
+  letter-spacing: .15em
 }
-h2 {
-  color: black;
+p {
+  font-family: 'Merriweather',serif;
+  line-height: 1.6em;
 }
-
-/* Default */
-a {
-  color: pink;
-  text-decoration: none;
-  border-bottom: 10px dotted black;
-  transition: color .5s ease;
+.text. p.intro{
+  font-size: 2em;
+  line-height: 1.4em;
 }
-/* Visited links */
-a:visited {
-  color: red;
+@media only screen and (max-width: 1440px){
+  .text{
+    width: 55vw;
+  }
+  .iim{
+    width: 90vw;
+  }
 }
-/* Hover state */
-a:hover {
-  color: blue;
-  cursor: crosshair;
+@media only screen and (max-width:1024px)
+{
+  .text{
+    width: 75vw
+  }
+  .iim{
+    width: 95vw;
+  }
 }
-/* Focused state */
-a:focus {
-  color: yellow;
+@media only screen and (max-width: 1024px){
 }
-/* Activated state */
-a:active {
-  color: black;
+.iim img{
+  max-width: 100%;
+  margin: 0 0 50px 0;
+}
+img .full, img .half {
+  max-width: 100%;
+  margin: 10px 0;
+}
+img .right-10px{
+  margin-right: 0;
+}
+h1{
+  font-size: 4em;
+}
+.desktop-only{
+  display: block;
+  }
+}
+.mobile-only{
+  display: block;
+ }
+}
+@media inly screen and (max-width:768px){
+  #header{
+    height: 50vh;
+  }
+.text {
+  width: 95vw;
+}
+.iim{
+  widht: 95vw;
+}
+h1{
+  font-size: 3em
 }
