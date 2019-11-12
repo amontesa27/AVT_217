@@ -1,0 +1,7 @@
+p {
+  transition: all 3s ease;
+}
+/* class we are toggling through jquery */
+.grow {
+  font-size: 10vw;
+}

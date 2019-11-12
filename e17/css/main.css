@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body{
+  font-family: 'Oswald', sans-serif;
+  background-color: white;
+}
+.title {
+  width: 100vw;
+  height: 90vh;
+  background-color: salmon;
+  padding: 32vh 0 0 0;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 5em;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  letter-spacing: .05em;
+}
+.align-left {
+  text-align: left;
+}
+.Green {
+  width: 100vw;
+  height: 90vh;
+  background-color: palegreen;
+}
+.Taro {
+  width: 100vw;
+  height: 90vh;
+  background-color: rosybrown;
+}
+.Winter {
+  width: 100vw;
+  height: 90vh;
+  background-color: cornsilk;
+}
+.Peach {
+  width: 100vw;
+  height: 90vh;
+  background-color: coral;
+}
+.Strawberry {
+  width: 100vw;
+  height: 90vh;
+  background-color: lightcoral;
+}
