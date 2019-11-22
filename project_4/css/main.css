@@ -1,0 +1,114 @@
+*{box-sizing: border-box;}
+html {
+  font-size: 18px;
+}
+body {
+  margin: 0;
+  background-color: rgb(25,25,25);
+}
+.box_right{
+  width: 100vw;
+  padding: 100px 0 100px 50vw;
+  margin: 0 0 100px;
+}
+.box_left{
+  width: 100vw;
+  padding: 100px 0 100px 10vw;
+  margin: 0 0 100px;
+}
+#queen-bee {
+  background: url(../img/queen_bee.jpg) no-repeat center left;
+  background-size: cover;
+}
+#drone-bee {
+  background: url(../img/drone_bee.jpg) no-repeat center left;
+  background-size: cover;
+}
+#worker-bees {
+background: url(../img/worker_bee.jpg) no-repeat center left;
+background-size: cover;
+}
+#hive {
+  background: url(../img/bee_hive.jpg) no-repeat center left;
+  background-size: cover;
+}
+#honey-making {
+  background: url(../img/honey.jpg) no-repeat center left;
+  background-size: cover;
+}
+.text{
+  background-color:rgba(0,0,0,0.7);
+  width: 40vw;
+  padding: 100px 50px 100px 50px;
+  color: white;
+}
+h1{
+  margin: 50px 0;
+  color: white;
+  font-size: 5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+h2 {
+  font-family: 'Playfair Display', serif;
+  margin: 0 0 50px;
+  font-size: 3em;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  text-align: center;
+}
+p, li {
+  font-family: 'PT Sans', sans-serif;
+  line-height: 1.6em
+}
+.mobile-only{
+  display: none;
+}
+@media only screen and (max-width: 1200px){
+  .text{
+    width: 60vw;
+    padding: 100px 50px 100px 50px;
+  }
+  .box_right{
+    padding: 100px 0 100px 30vw;
+    margin: 0 0 100px;
+  }
+  .box_left{
+    padding: 100px 0 100px 10vw;
+    margin: 0 0 100px;
+  }
+}
+@media only screen and (max-width: 800px){
+  #queen-bee,#drone-bee,#worker-bees,#hive, #honey-making {
+    background: none;
+  }
+  .box_right, .box_left{
+    padding: 0;
+    margin: 0;
+  }
+  img {
+    width: 100%;
+  }
+  .text{
+    width: 100%;
+    padding: 25px 25px 50px;
+    background-color: initial;
+  }
+  .mobile-only{
+    display: block;
+  }
+  h2 {
+    margin: 0 0 25px;
+    font-size: 2em;
+  }
+  h1{
+    font-size: 3em;
+  }
+  html {
+    font-size: 16px;
+  }
+}
