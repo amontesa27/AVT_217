@@ -1,10 +1,11 @@
 $(document).ready(function() {
     // run function on initial page load
-	colorGuess();
+	fruitGuess();
 });
 
 function fruitGuess() {
 	var fruitArray = ["Apple","Apricots","Blueberry","Banana","Blackberry","Cherry","Clementine","Cranberries","Grapefruit","Grape","Guava","HoneydewMelon","Kiwi","Lemon","Lime","Lychee","Mango","Nectarine","Orange","Papaya","PassionFruit","Peaches","Pear","Plums","Pomegranate","Prunes","Raspberries","Strawberries","Tamarind","Tangerine","Watermelon"];
+	var randomNumber = Math.floor(Math.random() * fruitArray.length);
 	var stripped = fruitArray[randomNumber].toLowerCase();
 	console.log(fruitArray[randomNumber]);
 	console.log(stripped);
